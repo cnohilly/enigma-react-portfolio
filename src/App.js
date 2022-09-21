@@ -7,6 +7,7 @@ import Footer from './components/Footer';
 import Resume from './components/Resume';
 import Contact from './components/Contact';
 import Portfolio from './components/Portfolio';
+import Banner from './components/Banner';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
   }
   return (
     <div className='bg-dark text-light d-flex flex-column min-vh-100 position-relative'>
+      <Banner />
       <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
       <main className='flex-grow-1 d-flex flex-column m-2'>
         {renderPage()}

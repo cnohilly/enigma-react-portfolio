@@ -3,13 +3,13 @@ import React from 'react'
 export default function Nav({ currentPage, handlePageChange }) {
   return (
     <header className='sticky-top'>
-      <nav className="navbar navbar-expand-lg navbar-dark bg-dark border-bottom border-secondary">
-        <div class="container-fluid">
-          <h2><a class="navbar-brand" href="/">Chris Nohilly</a></h2>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+      <nav className="navbar navbar-expand-lg navbar-dark bg-dark border-bottom border-secondary sticky-top">
+        <div className="container-fluid">
+          <h2 ><a className="navbar-brand" id='name-title' href="/">Chris Nohilly</a></h2>
+          <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
             data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
             aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse">
             <ul className="navbar-nav">
