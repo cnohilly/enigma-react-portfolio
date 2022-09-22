@@ -20,3 +20,11 @@ code {
   font-size: x-large;
   color: blue;
 }
+
+.form-floating>label {
+  color: rgba(var(--bs-secondary-rgb), var(--bs-text-opacity)) !important;
+}
+
+#messageInput {
+  height: 100px;
+}
