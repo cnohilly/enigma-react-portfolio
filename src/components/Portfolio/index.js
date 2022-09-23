@@ -1,8 +1,55 @@
-import React from 'react';
+import React, { useState } from 'react';
+import Project from '../Project';
 
 function Portfolio() {
+    const [projects] = useState([
+        {
+            name: 'Watch It Later',
+            description: 'Full-stack application using TheMovieDatabase API to view and search movies and television shows. Users can create an account to then rate and leave comments on their favorite movies or television shows and even create a personal watchlist.',
+            deployed: 'https://watch-it-later.herokuapp.com/',
+            repository: 'https://github.com/cnohilly/watch-it-later',
+            technology: ['Node', 'Express', 'MySQL', 'Sequelize', 'Handlebars', 'Bulma', 'MVC'],
+            image: require('../../assets/images/watch-it-later.jpg'),
+            gif: require('../../assets/images/watch-it-later.gif')
+        },
+        {
+            name: 'Movie TV Watchlist',
+            description: 'Using TheMovieDatabase API, users can view and search movies and television shows to see relevant information and can add the piece of media to their own personal watchlist of content they plan to watch.',
+            deployed: 'https://cnohilly.github.io/movie-tv-watchlist/index.html',
+            repository: 'https://github.com/cnohilly/watchlist',
+            technology: ['HTML', 'CSS', 'JavaScript', 'Bulma', 'jQuery', '3rd Party API'],
+        },
+        {
+            name: '',
+            description: '',
+            deployed: '',
+            repository: ''
+        },
+        {
+            name: '',
+            description: '',
+            deployed: '',
+            repository: ''
+        },
+        {
+            name: '',
+            description: '',
+            deployed: '',
+            repository: ''
+        },
+        {
+            name: '',
+            description: '',
+            deployed: '',
+            repository: ''
+        }
+    ])
     return (
-        <p> placeholder Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi, non eius modi sint culpa, laborum ipsum, maiores perferendis delectus temporibus minima deserunt quis? Eius optio dolore, rem reprehenderit asperiores mollitia tempora vel iusto possimus vitae dolorum iure beatae voluptatum sed eveniet veritatis accusantium incidunt nulla fugiat modi dolorem deserunt minima laborum! Laboriosam, ullam! Quod nemo praesentium dignissimos possimus veniam dicta consequatur molestiae, porro quasi natus qui. Quisquam molestiae suscipit cupiditate eveniet at! Facere ad impedit suscipit inventore in dolorum maxime ipsum nemo. Repudiandae aspernatur tenetur cumque laudantium voluptatibus cupiditate consectetur iure amet perferendis cum. At quam consequatur aspernatur sapiente quod.</p>
+        <section className="content-section container">
+            {projects.map(project => (
+                <Project project={project} />
+            ))}
+        </section>
     )
 }
 
