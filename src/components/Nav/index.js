@@ -5,7 +5,7 @@ export default function Nav({ currentPage, handlePageChange }) {
     <header className='sticky-top'>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark border-bottom border-secondary sticky-top">
         <div className="container-fluid">
-          <h2 ><a className="navbar-brand" id='name-title' href="/">Chris Nohilly</a></h2>
+          <h2 ><a className="navbar-brand text-light" id='name-title' href="/">Chris Nohilly</a></h2>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
             data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
             aria-label="Toggle navigation">

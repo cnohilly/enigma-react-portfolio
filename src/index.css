@@ -18,11 +18,10 @@ code {
 
 #name-title {
   font-size: x-large;
-  color: blue;
 }
 
 .form-floating>label {
-  color: rgba(var(--bs-secondary-rgb), var(--bs-text-opacity)) !important;
+  /* color: rgba(var(--bs-secondary-rgb), var(--bs-text-opacity)) !important; */
 }
 
 #messageInput {

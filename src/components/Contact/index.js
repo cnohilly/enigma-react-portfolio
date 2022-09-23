@@ -62,28 +62,28 @@ function Contact() {
     return (
         <section className="content-section container my-3" id="contact">
             <form action="submit" id="contact-form" onSubmit={handleSubmit}>
-                <h3 className='mb-3'>Contact Me!</h3>
+                <h3 className='mb-3 text-light'>Contact Me!</h3>
                 <div className='form-floating mb-3'>
                     <input name='name' type="text"
-                        className="form-control" id="floatInput"
+                        className="form-control text-white bg-secondary border-secondary" id="floatInput"
                         placeholder='Name' onBlur={handleChange} />
-                    <label htmlFor="floatInput">Name</label>
+                    <label htmlFor="floatInput" className='text-white'>Name</label>
                 </div>
                 <div className="form-floating mb-3">
                     <input name='email' type="email"
-                        className="form-control" id="emailInput"
+                        className="form-control text-white bg-secondary border-secondary" id="emailInput"
                         placeholder="Email" onBlur={handleChange} />
-                    <label htmlFor="emailInput">Email</label>
+                    <label htmlFor="emailInput" className='text-white'>Email</label>
                 </div>
                 <div className="form-floating mb-3">
                     <textarea name='message' id="messageInput"
-                        className="form-control" placeholder='Type a message'
+                        className="form-control text-white bg-secondary border-secondary" placeholder='Type a message'
                         onBlur={handleChange}></textarea>
-                    <label htmlFor="messageInput">Message</label>
+                    <label htmlFor="messageInput" className='text-white'>Message</label>
                 </div>
                 <div className="float-sm-end d-flex align-items-center justify-content-sm-center flex-column flex-sm-row">
                     <span className='text-danger mx-3 order-last order-sm-first'>{errorMessage}</span>
-                    <button className="btn btn-success mb-3 mb-sm-0 px-5 my-auto order-first order-sm-last" id="submit-btn">Submit</button>
+                    <button className="btn btn-primary mb-3 mb-sm-0 px-5 my-auto order-first order-sm-last" id="submit-btn">Submit</button>
                 </div>
             </form>
         </section>

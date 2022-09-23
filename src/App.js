@@ -25,7 +25,7 @@ function App() {
     }
   }
   return (
-    <div className='bg-dark text-light d-flex flex-column min-vh-100 position-relative'>
+    <div className='bg-dark text-white d-flex flex-column min-vh-100 position-relative'>
       <Banner />
       <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
       <main className='flex-grow-1 d-flex flex-column m-2'>
