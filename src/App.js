@@ -1,6 +1,4 @@
-import logo from './logo.svg';
-import { useState } from 'react';
-import './App.css';
+import { useEffect, useState } from 'react';
 import Nav from './components/Nav';
 import About from './components/About';
 import Footer from './components/Footer';
@@ -12,6 +10,9 @@ import Banner from './components/Banner';
 
 function App() {
 
+  useEffect(() => {
+    document.title = 'Chris Nohilly - Portfolio';
+  });
   const [currentPage, setCurrentPage] = useState('About');
   const handlePageChange = (page) => setCurrentPage(page);
 
