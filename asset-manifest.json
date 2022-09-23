@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/cnohilly/enigma-react-portfolio/static/css/main.358c15ac.css",
+    "main.js": "/cnohilly/enigma-react-portfolio/static/js/main.71e2b046.js",
+    "static/js/787.a2cb61a6.chunk.js": "/cnohilly/enigma-react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/portfolio-banner.png": "/cnohilly/enigma-react-portfolio/static/media/portfolio-banner.675fe2e41823f84f434f.png",
+    "static/media/logo.svg": "/cnohilly/enigma-react-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/cnohilly/enigma-react-portfolio/index.html",
+    "main.358c15ac.css.map": "/cnohilly/enigma-react-portfolio/static/css/main.358c15ac.css.map",
+    "main.71e2b046.js.map": "/cnohilly/enigma-react-portfolio/static/js/main.71e2b046.js.map",
+    "787.a2cb61a6.chunk.js.map": "/cnohilly/enigma-react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.358c15ac.css",
+    "static/js/main.71e2b046.js"
+  ]
+}
