@@ -13,15 +13,7 @@ code {
 }
 
 #name-title {
-  /* font-size: 2rem; */
-}
-
-#name-title {
   font-size: x-large;
-}
-
-.form-floating>label {
-  /* color: rgba(var(--bs-secondary-rgb), var(--bs-text-opacity)) !important; */
 }
 
 #messageInput {
