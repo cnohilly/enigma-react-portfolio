@@ -18,6 +18,8 @@ function Portfolio() {
             deployed: 'https://cnohilly.github.io/movie-tv-watchlist/index.html',
             repository: 'https://github.com/cnohilly/watchlist',
             technology: ['HTML', 'CSS', 'JavaScript', 'Bulma', 'jQuery', '3rd Party API'],
+            image: require('../../assets/images/movie-tv-watchlist.jpg'),
+            gif: require('../../assets/images/movie-tv-watchlist.gif')
         },
         {
             name: 'Tech It Out',
@@ -26,35 +28,41 @@ function Portfolio() {
             repository: 'https://github.com/cnohilly/mvc-tech-blog-tech-it-out',
             technology: ['Express', 'Handlebars', 'MySQL', 'Sequelize', 'Express-Session'],
             image: require('../../assets/images/tech-it-out.jpg'),
-            gif: require('../../assets/images/tech-it-out.gif'),
+            gif: require('../../assets/images/tech-it-out.gif')
         },
         {
             name: '',
             description: '',
             deployed: '',
             repository: '',
-            technology: []
+            technology: [],
+            image: require('../../assets/images/tech-it-out.jpg'),
+            gif: require('../../assets/images/tech-it-out.gif')
         },
         {
             name: '',
             description: '',
             deployed: '',
             repository: '',
-            technology: []
+            technology: [],
+            image: require('../../assets/images/tech-it-out.jpg'),
+            gif: require('../../assets/images/tech-it-out.gif')
         },
         {
             name: '',
             description: '',
             deployed: '',
             repository: '',
-            technology: []
+            technology: [],
+            image: require('../../assets/images/tech-it-out.jpg'),
+            gif: require('../../assets/images/tech-it-out.gif')
         }
     ])
     return (
         <section className="content-section container my-5">
             <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5">
                 {projects.map(project => (
-                    <Project project={project} />
+                    <Project project={project} key={project.name} />
                 ))}
             </div>
         </section>

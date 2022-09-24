@@ -31,3 +31,7 @@ code {
 .footer-icon {
   font-size: 30px;
 }
+
+.card-img-top {
+  aspect-ratio: 16/9;
+}
