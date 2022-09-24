@@ -13,16 +13,17 @@ function Project({ project }) {
                 <div className="card-header my-0 py-2">
                     <h5 className="card-title">{name}</h5>
                 </div>
-                <div className="card-body bg-primary text-black">
+                <div className="card-body bg-primary text-white">
                     <p className="card-text">{description}</p>
+                    <hr />
+                    {technology.length > 0 &&
+                        <div>
+                            <h6>Technology and Resources: </h6>
+                            <p className="card-text">
+                                {technology.join(', ')}
+                            </p>
+                        </div>}
                 </div>
-                {technology.length > 0 &&
-                    <div className="card-body bg-primary border-top border-secondary">
-                        <h6 className="card-title">Technology and Resources: </h6>
-                        <p className="card-text">
-                            {technology.join(', ')}
-                        </p>
-                    </div>}
                 <div className="card-footer d-flex align-items-center justify-content-between">
                     <a href={deployed} target='_blank' rel='noreferrer nooepener'>
                         <button className="btn btn-primary text-white">Website <i className="bi bi-box-arrow-up-right"></i></button>
