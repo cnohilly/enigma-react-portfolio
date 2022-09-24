@@ -20,35 +20,43 @@ function Portfolio() {
             technology: ['HTML', 'CSS', 'JavaScript', 'Bulma', 'jQuery', '3rd Party API'],
         },
         {
-            name: '',
-            description: '',
-            deployed: '',
-            repository: ''
+            name: 'Tech It Out',
+            description: 'Tech It Out is a simple blog style website where users can create accounts, create posts of their own, and comment on posts. Users can use the dashboard to edit posts or to be directed to the page to create a new post.',
+            deployed: 'https://tech-it-out-blog.herokuapp.com/',
+            repository: 'https://github.com/cnohilly/mvc-tech-blog-tech-it-out',
+            technology: ['Express', 'Handlebars', 'MySQL', 'Sequelize', 'Express-Session'],
+            image: require('../../assets/images/tech-it-out.jpg'),
+            gif: require('../../assets/images/tech-it-out.gif'),
         },
         {
             name: '',
             description: '',
             deployed: '',
-            repository: ''
+            repository: '',
+            technology: []
         },
         {
             name: '',
             description: '',
             deployed: '',
-            repository: ''
+            repository: '',
+            technology: []
         },
         {
             name: '',
             description: '',
             deployed: '',
-            repository: ''
+            repository: '',
+            technology: []
         }
     ])
     return (
-        <section className="content-section container">
-            {projects.map(project => (
-                <Project project={project} />
-            ))}
+        <section className="content-section container my-5">
+            <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5">
+                {projects.map(project => (
+                    <Project project={project} />
+                ))}
+            </div>
         </section>
     )
 }
