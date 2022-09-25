@@ -12,16 +12,8 @@ code {
     monospace;
 }
 
-#name-title {
-  font-size: x-large;
-}
-
 #messageInput {
   height: 100px;
-}
-
-.footer-icon {
-  font-size: 30px;
 }
 
 .card-img-top {

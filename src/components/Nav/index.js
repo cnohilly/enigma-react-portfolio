@@ -5,13 +5,13 @@ export default function Nav({ currentPage, handlePageChange }) {
     <header className='sticky-top'>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark border-bottom border-secondary sticky-top">
         <div className="container-fluid">
-          <h2 ><a className="navbar-brand text-light" id='name-title' href="/">Chris Nohilly</a></h2>
+          <h2 ><a className="navbar-brand text-light fs-3" id='name-title' href="/">Chris Nohilly</a></h2>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
-            data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+            data-bs-target="#page-navbar" aria-controls="page-navbar" aria-expanded="false"
             aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div className="collapse navbar-collapse">
+          <div className="collapse navbar-collapse" id="page-navbar">
             <ul className="navbar-nav">
               <li className="nav-item">
                 <a href="#about"
