@@ -63,11 +63,17 @@ function Resume() {
 
     return (
         <section className="content-section container my-5">
-            <div className="d-flex flex-column align-items-center">
-                <h2 className="text-light">Resume</h2>
-                <a className="my-4" href="https://bit.ly/resume-cn" target="_blank" rel="noreferrer noopener">
-                    <button className="btn btn-primary">Open Resume <i className="bi bi-box-arrow-up-right"></i></button>
-                </a>
+            <div className="">
+                <h2 className="text-center text-light">Resume</h2>
+                <div className="d-flex justify-content-center">
+                    <a className="my-4 mx-2" href="https://bit.ly/resume-cn" target="_blank" rel="noreferrer noopener">
+                        <button className="btn btn-primary">Open Resume <i className="bi bi-box-arrow-up-right"></i></button>
+                    </a>
+                    <a href={require('../../assets/files/cn-resume.pdf')}
+                        className="my-4 mx-2" download>
+                        <button className="btn btn-success"><i className="bi bi-download"></i></button>
+                    </a>
+                </div>
             </div>
             <div className="row g-5">
                 <div className="col-12 col-md-4">
