@@ -19,3 +19,8 @@ code {
 .card-img-top {
   aspect-ratio: 16/9;
 }
+
+.list-group-item {
+  color: var(--bs-white) !important;
+  background-color: var(--bs-secondary) !important;
+}
