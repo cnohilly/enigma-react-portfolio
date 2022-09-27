@@ -3,23 +3,6 @@ import { capitalizeFirstLetter, validateEmail } from '../../utils/helpers';
 
 
 function Contact() {
-
-    // const inputs = [
-    //     {
-    //         name: 'email',
-    //         element: document.querySelector("input[name='email']")
-    //     },
-    //     {
-    //         name: 'name',
-    //         element: document.querySelector("input[name='name']")
-    //     },
-    //     {
-    //         name: 'message',
-    //         element: document.querySelector("textarea[name='message']")
-    //     }
-    // ]
-
-
     const [formState, setFormState] = useState({ name: '', email: '', message: '' });
     const [errorMessage, setErrorMessage] = useState('');
     const [formComplete, setFormComplete] = useState(false);

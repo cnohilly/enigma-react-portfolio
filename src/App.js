@@ -10,11 +10,12 @@ import Banner from './components/Banner';
 
 function App() {
 
-  useEffect(() => {
-    document.title = 'Chris Nohilly - Portfolio';
-  });
   const [currentPage, setCurrentPage] = useState('About');
+  useEffect(() => {
+    document.title = `Chris Nohilly - ${currentPage}`
+  }, [currentPage])
   const handlePageChange = (page) => setCurrentPage(page);
+
 
   const renderPage = () => {
     switch (currentPage) {
