@@ -13,6 +13,7 @@ function App() {
   const [currentPage, setCurrentPage] = useState('About');
   useEffect(() => {
     document.title = `Chris Nohilly - ${currentPage}`
+    window.scrollTo(0, 0);
   }, [currentPage])
   const handlePageChange = (page) => setCurrentPage(page);
 

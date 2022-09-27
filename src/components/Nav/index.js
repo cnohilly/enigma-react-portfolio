@@ -14,7 +14,7 @@ export default function Nav({ currentPage, handlePageChange }) {
           <div className="collapse navbar-collapse" id="page-navbar">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a href="#about"
+                <a href="#about" data-bs-toggle="collapse" data-bs-target="#page-navbar"
                   onClick={() => handlePageChange('About')}
                   className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
                 >
@@ -22,7 +22,7 @@ export default function Nav({ currentPage, handlePageChange }) {
                 </a>
               </li>
               <li className="nav-item">
-                <a href="#portfolio"
+                <a href="#portfolio" data-bs-toggle="collapse" data-bs-target="#page-navbar"
                   onClick={() => handlePageChange('Portfolio')}
                   className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
                 >
@@ -30,7 +30,7 @@ export default function Nav({ currentPage, handlePageChange }) {
                 </a>
               </li>
               <li className="nav-item">
-                <a href="#contact"
+                <a href="#contact" data-bs-toggle="collapse" data-bs-target="#page-navbar"
                   onClick={() => handlePageChange('Contact')}
                   className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
                 >
@@ -38,7 +38,7 @@ export default function Nav({ currentPage, handlePageChange }) {
                 </a>
               </li>
               <li className="nav-item">
-                <a href="#resume"
+                <a href="#resume" data-bs-toggle="collapse" data-bs-target="#page-navbar"
                   onClick={() => handlePageChange('Resume')}
                   className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
                 >
