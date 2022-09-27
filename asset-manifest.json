@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/enigma-react-portfolio/static/css/main.0fb8c36c.css",
-    "main.js": "/enigma-react-portfolio/static/js/main.c6c56c92.js",
+    "main.js": "/enigma-react-portfolio/static/js/main.64833274.js",
     "static/js/787.a2cb61a6.chunk.js": "/enigma-react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/pizza-hunt.gif": "/enigma-react-portfolio/static/media/pizza-hunt.a5e6673314a1e485993c.gif",
     "static/media/movie-tv-watchlist.gif": "/enigma-react-portfolio/static/media/movie-tv-watchlist.883da437c79d612cab2a.gif",
@@ -22,11 +22,11 @@
     "static/media/password-generator.jpg": "/enigma-react-portfolio/static/media/password-generator.0340f857d67b7742275e.jpg",
     "index.html": "/enigma-react-portfolio/index.html",
     "main.0fb8c36c.css.map": "/enigma-react-portfolio/static/css/main.0fb8c36c.css.map",
-    "main.c6c56c92.js.map": "/enigma-react-portfolio/static/js/main.c6c56c92.js.map",
+    "main.64833274.js.map": "/enigma-react-portfolio/static/js/main.64833274.js.map",
     "787.a2cb61a6.chunk.js.map": "/enigma-react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0fb8c36c.css",
-    "static/js/main.c6c56c92.js"
+    "static/js/main.64833274.js"
   ]
 }
