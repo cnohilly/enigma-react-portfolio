@@ -4,6 +4,15 @@ import Project from '../Project';
 function Portfolio() {
     const [projects] = useState([
         {
+            name: 'CodeFlow',
+            description: 'Full-stack MERN application where developers can share projects and connect with others. Users can create accounts, add friends, post their projects with relevant links, and join the discussion on projects by leaving comments.',
+            deployed: 'https://code-flow-app.herokuapp.com/',
+            repository: 'https://github.com/cnohilly/codeflow',
+            technology: ['MERN', 'Tagify', 'JWT', 'GraphQL'],
+            image: require('../../assets/images/codeflow.jpg'),
+            gif: require('../../assets/images/codeflow.gif')
+        },
+        {
             name: 'Watch It Later',
             description: 'Full-stack application using TheMovieDatabase API to view and search movies and television shows. Users can create an account to then rate and leave comments on their favorite movies or television shows and even create a personal watchlist.',
             deployed: 'https://watch-it-later.herokuapp.com/',
