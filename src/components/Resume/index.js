@@ -12,6 +12,8 @@ function Resume() {
         "Node",
         "jQuery",
         "SQL",
+        "Spring Boot",
+        "Thymeleaf",
         "NoSql",
         "GitHub",
         "MySQL",
