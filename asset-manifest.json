@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.06de91fc.css",
-    "main.js": "/static/js/main.9ec9eb29.js",
+    "main.js": "/static/js/main.8f0dde7b.js",
     "static/js/787.a2cb61a6.chunk.js": "/static/js/787.a2cb61a6.chunk.js",
     "static/media/pizza-hunt.gif": "/static/media/pizza-hunt.a5e6673314a1e485993c.gif",
     "static/media/movie-tv-watchlist.gif": "/static/media/movie-tv-watchlist.883da437c79d612cab2a.gif",
@@ -25,11 +25,11 @@
     "static/media/password-generator.jpg": "/static/media/password-generator.0340f857d67b7742275e.jpg",
     "index.html": "/index.html",
     "main.06de91fc.css.map": "/static/css/main.06de91fc.css.map",
-    "main.9ec9eb29.js.map": "/static/js/main.9ec9eb29.js.map",
+    "main.8f0dde7b.js.map": "/static/js/main.8f0dde7b.js.map",
     "787.a2cb61a6.chunk.js.map": "/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.06de91fc.css",
-    "static/js/main.9ec9eb29.js"
+    "static/js/main.8f0dde7b.js"
   ]
 }
