@@ -22,6 +22,15 @@ function Portfolio() {
             gif: require('../../assets/images/watch-it-later.gif')
         },
         {
+            name: 'Tech It Out - Java',
+            description: 'Full-stack application using Thymeleaf for front-end templating and Java Spring Boot to manage the back-end to allow users to create posts sharing tech news and comment or upvote on individual posts.',
+            deployed: 'https://javatech.herokuapp.com/',
+            repository: 'https://github.com/cnohilly/tech-news-java-api',
+            technology: ['Java', 'Spring Boot', 'Thymeleaf', 'MySQL', 'Spring Session', 'Spring Data JPA'],
+            image: require('../../assets/images/tech-it-out-java.jpg'),
+            gif: require('../../assets/images/tech-it-out-java.gif'),
+        },
+        {
             name: 'Movie TV Watchlist',
             description: 'Using TheMovieDatabase API, users can view and search movies and television shows to see relevant information and can add the piece of media to their own personal watchlist of content they plan to watch.',
             deployed: 'https://cnohilly.github.io/movie-tv-watchlist/index.html',
