@@ -31,6 +31,15 @@ function Portfolio() {
             gif: require('../../assets/images/tech-it-out-java.gif'),
         },
         {
+            name: 'Deep Thought - AWS',
+            description: 'Full-stack application using React for the front-end and Node/Express for the back-end while using Amazon Web Services for data management using S3 and DynamoDB and EC2 to create an instance to run and host the application. It is a simple application allowing users to create posts with their name, thought and an image.',
+            deployed: 'http://18.191.185.164/',
+            repository: 'https://github.com/cnohilly/aws-thought',
+            technology: ['React', 'Node', 'Express', 'AWS', 'S3', 'DynamoDB', 'EC2'],
+            image: require('../../assets/images/deep-thought-aws.jpg'),
+            gif: require('../../assets/images/deep-thought-aws.gif')
+        },
+        {
             name: 'Movie TV Watchlist',
             description: 'Using TheMovieDatabase API, users can view and search movies and television shows to see relevant information and can add the piece of media to their own personal watchlist of content they plan to watch.',
             deployed: 'https://cnohilly.github.io/movie-tv-watchlist/index.html',
